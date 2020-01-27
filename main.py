@@ -17,7 +17,7 @@ while not quit:
         else:
             number = int(number)
             count = count + 1
-            print("Sorry, you didn't get it right")
+            
             if number > random_number:
                 print("Too high!")
             elif number < random_number:
